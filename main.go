@@ -1,8 +1,8 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("Hello World")
-	pointersCheck()
+	truncate("4.6")
+	findian("ian")
+	findian("ina")
+	findian("iiweurqiowlajkqrjqkn")
 }
