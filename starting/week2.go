@@ -1,4 +1,4 @@
-package main
+package starting
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 	"strings"
 )
 
-func truncate(val string) {
+func Truncate(val string) {
 
 	floated, _ := strconv.ParseFloat(val, 64)
 
@@ -14,7 +14,7 @@ func truncate(val string) {
 
 }
 
-func findian(val string) {
+func Findian(val string) {
 	i := "i"
 	a := "a"
 	n := "n"

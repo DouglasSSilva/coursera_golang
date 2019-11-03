@@ -1,11 +1,11 @@
-package main
+package starting
 
 import (
 	"fmt"
 	"sort"
 )
 
-func sorteSlice(a, b, c, d int) {
+func SortSlice(a, b, c, d int) {
 	sl := make([]int, 4, 4)
 	sl[0] = a
 	sl[1] = b
